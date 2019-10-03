@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="note_name">
+        <item>赵四</item>
+        <item>王五</item>
+        <item>张坤</item>
+        <item>峰哥</item>
+        <item>亮哥</item>
+        <item>凡姐</item>
+        <item>王一锤</item>
+        <item>灭霸</item>
+        <item>钢铁侠</item>
+        <item>黑寡妇</item>
+    </string-array>
+    <string-array name="tell_number">
+        <item>13393218771</item>
+        <item>15511303375</item>
+        <item>15075820409</item>
+        <item>13400318947</item>
+        <item>13051633526</item>
+        <item>15630457393</item>
+        <item>13786519358</item>
+        <item>15630401589</item>
+        <item>15531892365</item>
+        <item>15716807242</item>
+    </string-array>
+</resources>

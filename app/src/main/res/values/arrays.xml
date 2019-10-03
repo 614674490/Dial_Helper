@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="user_note">
+        <item>王铮</item>
+        <item>未知</item>
+        <item>李圭印</item>
+        <item>胡博谭</item>
+        <item>未知</item>
+        <item>齐一凡</item>
+        <item>未知</item>
+        <item>中国移动</item>
+        <item>肖云</item>
+        <item>姐姐</item>
+    </string-array>
+    <string-array name="user_tell">
+        <item>15716807242</item>
+        <item>15630401589</item>
+        <item>15511303375</item>
+        <item>13400318947</item>
+        <item>13051633526</item>
+        <item>15630457393</item>
+        <item>13393218771</item>
+        <item>10086</item>
+        <item>15531892365</item>
+        <item>15075820409</item>
+    </string-array>
+    <string-array name="dial_time">
+        <item>刚刚</item>
+        <item>10分钟前</item>
+        <item>20:46</item>
+        <item>19:25</item>
+        <item>8:30</item>
+        <item>昨天</item>
+        <item>昨天</item>
+        <item>前天</item>
+        <item>前天</item>
+        <item>9/25</item>
+    </string-array>
+</resources>

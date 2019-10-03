@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icon_menu"
+        android:icon="@drawable/icon_menu"
+        android:title="contacts_menu"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/contacts_export_records"
+                android:title="导出"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/contacts_settings"
+                android:title="设置"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+</menu>

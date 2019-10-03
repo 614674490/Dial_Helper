@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+   <ImageView
+       android:id="@+id/user_image"
+       android:layout_width="15dp"
+       android:layout_height="15dp"
+       android:layout_alignTop="@+id/note_tell"
+       android:layout_marginLeft="5dp"/>
+    <LinearLayout
+        android:id="@+id/note_tell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp">
+        <TextView
+            android:id="@+id/user_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/user_tell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:layout_alignLeft="@id/user_note"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dial_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme.白底黑字 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <!-- Title Bar Text Color. -->
+        <!-- Title Status Text Color. -->
+        <!-- Title Bar Color. -->
+        <!-- Status Bar Color. -->
+
+        <item name="colorAccent">#42426F</item>
+        <!-- 加入toolbar溢出[弹出]菜单的风格 -->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+       <!-- <item name="android:dropDownListViewStyle">@style/MyListViewStyle</item> -->
+    </style>
+
+
+    <style name="notitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- Base application menu. -->
+    <style name="OverflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:paddingRight">5dp</item>
+
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">@color/white</item>
+        <!-- 弹出层垂直方向上的偏移，即在竖直方向上距离Toolbar的距离，值为负则会盖住Toolbar -->
+        <item name="android:dropDownVerticalOffset">5dp</item>
+        <!-- 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 -->
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+
+    </style>
+    <style name="MyListViewStyle">
+        <item name="android:divider">@color/gray</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+</resources>
